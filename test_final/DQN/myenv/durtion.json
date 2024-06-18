@@ -1,0 +1,12 @@
+{"(user-service,text-service)":10,
+"(compose-post-service,user-service)":1017,
+"(text-service,url-shorten-service)":2429,
+"(home-timeline-service,social-graph-service)":533,
+"(compose-post-service,user-service)":1800,
+"(compose-post-service,media-service)":941,
+"(compose-post-service,unique-id-service)":712,
+"(compose-post-service,post-storage-service)":849,
+"(nginx-web-server,compose-post-service)":1224,
+"(compose-post-service,user-timeline-service)":562,
+"(text-service,user-mention-service)":530,
+"(compose-post-service,home-timeline-service)":960}

@@ -1,0 +1,1 @@
+{"hometimeline-memcached":{"hit_ratio":94.292934154794,"bytes":18845309,"read_bytes":28248344},"usertimeline-memcached":{"hit_ratio":36.138574390049435,"bytes":74946328,"read_bytes":129970782},"post-memcached":{"hit_ratio":87.26324758516161,"bytes":36106593,"read_bytes":365340906},"redis":{"hit_ratio":100.0,"bytes":1403,"read_bytes":347151}}
