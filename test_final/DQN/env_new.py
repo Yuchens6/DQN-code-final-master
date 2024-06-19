@@ -126,6 +126,7 @@ class CustomEnv():
 
             print("hometimeline",action[0],"usertimeline",action[1],"post",action[2],"redis",action[3])
             print("等待重新配置环境,Press Enter to continue...")
+            input()
             w = Getwrk()
             print("Continuing...")
                 #tool.load_data_function()
@@ -206,7 +207,9 @@ def Getwrk():
     # route = 'cd newbishe'
     # command = 'ls'
     #要执行的指令
-    command = (f'./newbishe/bishe/wrk2/wrk -D exp -t 8 -c 800 -d 20 -L -s ./newbishe/bishe/socialNetwork/wrk2/scripts/social-network/read-home-timeline.lua http://localhost:8080/wrk2-api/home-timeline/read -R 5')
+    command = (f'./newbishe/bishe/wrk2/wrk -D exp -t 8 -c 800 -d 20 -L -s '
+               f'./newbishe/bishe/socialNetwork/wrk2/scripts/social-network/read-home-timeline.lua '
+               f'http://localhost:8080/wrk2-api/home-timeline/read -R 5')
     #时间分割线，超过这个时间的请求会被记录，单位是ms
     limit = 15000
     result,num = userwrk2(ssh,command,limit)
